@@ -20,3 +20,11 @@ git clone https://github.com/your-username/my-first-project.git
 
 ## Author
 Babrina Mehdi — [@BMehdigit](https://github.com/Bmehdigit)
+# Check which branch you're currently on
+$ git branch
+# Create a new branch and switch to it
+$ git checkout -b feature/my-new-feature
+# Or using the newer syntax
+$ git switch -c feature/my-new-feature
+# Push the new branch to GitHub
+$ git push origin feature/my-new-feature
